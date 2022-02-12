@@ -57,12 +57,12 @@ export default function Header({ menuIsOpen = true, setMenuOpen }: IProps) {
       copyTextToClipboard(
         `${
           process.env.NEXT_PUBLIC_NODE_ENV === 'dev'
-            ? 'http://localhost:3000'
+            ? 'http://0.0.0.0:3000'
             : 'http://branch.linkmefor.com'
         }/${link}`,
       );
     }, 1000);
-    
+
   };
 
   return (
