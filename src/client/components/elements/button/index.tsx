@@ -118,7 +118,7 @@ export default function Button({ data, theme, editing, music }: IProps) {
             <Image
               src={`${
                 process.env.NEXT_PUBLIC_NODE_ENV === 'dev'
-                  ? 'http://localhost:3000'
+                  ? 'http://damp-brook-02959.herokuapp.com'
                   : 'http://branch.linkmefor.com'
               }/file/${data.thumbPic}`}
               layout="fill"

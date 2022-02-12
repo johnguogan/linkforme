@@ -25,7 +25,7 @@ export default function Background({ children, style, withBlur }: IProps) {
           ? {
               backgroundImage: `url(${
                 process.env.NEXT_PUBLIC_NODE_ENV === 'dev'
-                  ? 'http://localhost:3000'
+                  ? 'http://damp-brook-02959.herokuapp.com'
                   : 'http://branch.linkmefor.com'
               }/file/${theme.custom?.background})`,
             }

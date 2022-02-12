@@ -57,8 +57,8 @@ export default function Header({ menuIsOpen = true, setMenuOpen }: IProps) {
       copyTextToClipboard(
         `${
           process.env.NEXT_PUBLIC_NODE_ENV === 'dev'
-            ? 'https://damp-brook-02959.herokuapp.com/'
-            : 'https://damp-brook-02959.herokuapp.com/'
+            ? 'http://localhost:3000'
+            : 'http://branch.linkmefor.com'
         }/${link}`,
       );
     }, 1000);
