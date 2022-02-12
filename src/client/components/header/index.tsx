@@ -57,12 +57,11 @@ export default function Header({ menuIsOpen = true, setMenuOpen }: IProps) {
       copyTextToClipboard(
         `${
           process.env.NEXT_PUBLIC_NODE_ENV === 'dev'
-            ? 'http://0.0.0.0:3000'
-            : 'http://branch.linkmefor.com'
+            ? 'https://damp-brook-02959.herokuapp.com/'
+            : 'https://damp-brook-02959.herokuapp.com/'
         }/${link}`,
       );
     }, 1000);
-
   };
 
   return (
