@@ -62,6 +62,7 @@ export default function Header({ menuIsOpen = true, setMenuOpen }: IProps) {
         }/${link}`,
       );
     }, 1000);
+    
   };
 
   return (
